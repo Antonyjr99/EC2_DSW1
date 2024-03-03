@@ -10,7 +10,7 @@ import com.example.demo.Model.Credenciales;
 
 @RestController
 public class AutenticacionController {
-
+    //prueba
     @PostMapping("/autenticar")
     public ResponseEntity<String> autenticar(@RequestBody Credenciales credenciales) {
         // Verificar que se ingresen el usuario y la contraseña
